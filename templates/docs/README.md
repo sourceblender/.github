@@ -1,8 +1,10 @@
 # Documentation layout
 
-Every Sourceblender repository uses the same `docs/` shape, so a reader who
-knows one repository can find their way around the next. Create only the
-folders you need; do not invent new top-level folders.
+Sourceblender repositories share one `docs/` entry point and a common set of
+section names, so a reader who knows one repository can find their way around
+the next. Create only the sections you need. A mature repository keeps its
+existing detail folders; point to them from `docs/README.md` rather than moving
+them, and put new material under the shared names.
 
 | Folder | What goes here |
 | --- | --- |

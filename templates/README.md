@@ -2,7 +2,8 @@
 Sourceblender README template. Keep these sections, in this order, with these
 headings. Delete the guidance comments. A section that does not apply says so
 in one line; it is not removed, so every README reads the same way.
-Showcase repositories (Musubi, Chord, Voice) are checked for these headings.
+Showcase repositories (Musubi, Chord, Voice) are expected to keep these
+headings; an automated check is planned, not yet installed.
 -->
 
 # project-name
@@ -20,15 +21,18 @@ Who can use this today, and what they get from it. Two or three sentences.
 | | |
 | --- | --- |
 | Purpose | Open source · Internal · Commercial candidate |
-| Lifecycle | Released · Public · Early · Public later · Archived |
+| Visibility | Public · Private · Public release planned |
+| Lifecycle | Proof of concept · Developing · Released · Maintained · Archived |
 | Owner | @handle |
 
-<!-- Must match the portfolio Project; the weekly sweep checks it. -->
+<!-- Keep this in step with the portfolio Project. A weekly sweep that checks
+     it is planned, not yet installed. -->
 
 ## Quickstart
 
-The shortest path from a clean machine to one working result. CI runs these
-exact commands, so if this section breaks, CI breaks.
+The shortest path from a clean machine to one working result. Adoption
+requirement: CI should run these exact commands, so that a broken quickstart
+fails the build. Until that job exists, say so here.
 
 ```sh
 # install
@@ -52,12 +56,11 @@ its definition in `docs/contracts/`.
 
 ## Documentation
 
+Start at [docs/README.md](docs/README.md). Link only the sections that exist:
+
 - [Getting started](docs/getting-started/)
-- [Concepts](docs/concepts/)
 - [Reference](docs/reference/)
-- [Contracts](docs/contracts/)
-- [Operations](docs/operations/)
-- [Decisions](docs/decisions/)
+<!-- concepts, contracts, operations, decisions: add a line when the folder exists -->
 
 ## Support and security
 
