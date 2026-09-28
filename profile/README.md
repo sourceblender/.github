@@ -26,7 +26,7 @@ that runs nightly in [CI](https://github.com/ericmey/musubi/actions/workflows/ev
 | Harness | [musubi-harness](https://github.com/sourceblender/musubi-harness) | Public · released |
 | Claude Code | [musubi-claude](https://github.com/sourceblender/musubi-claude) | Public · released |
 | Codex | [musubi-codex](https://github.com/sourceblender/musubi-codex) | Public · released |
-| Grok Build | [musubi-grok](https://github.com/sourceblender/musubi-grok) | Public · developing |
+| Grok Build | [musubi-grok](https://github.com/sourceblender/musubi-grok) | Public · released on GitHub (v0.1.0) |
 | Hermes | [musubi-hermes](https://github.com/sourceblender/musubi-hermes) | Public · released |
 | OpenClaw | [musubi-openclaw](https://github.com/sourceblender/musubi-openclaw) | Public · released on npm (2.0.10) |
 | LiveKit | [musubi-livekit](https://github.com/sourceblender/musubi-livekit) | Public · seed |
