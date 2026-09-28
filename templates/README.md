@@ -22,7 +22,7 @@ Who can use this today, and what they get from it. Two or three sentences.
 | --- | --- |
 | Purpose | Open source · Internal · Commercial candidate |
 | Visibility | Public · Private · Public release planned |
-| Lifecycle | Proof of concept · Developing · Released · Maintained · Archived |
+| Lifecycle | Seed · Proof of concept · Developing · Released · Maintained · Archived |
 | Owner | @handle |
 
 <!-- Keep this in step with the portfolio Project. A weekly sweep that checks
@@ -56,11 +56,11 @@ its definition in `docs/contracts/`.
 
 ## Documentation
 
-Start at [docs/README.md](docs/README.md). Link only the sections that exist:
+Start at [docs/README.md](docs/README.md).
 
+<!-- Add a line for each docs/ section that exists, and only those. Example:
 - [Getting started](docs/getting-started/)
-- [Reference](docs/reference/)
-<!-- concepts, contracts, operations, decisions: add a line when the folder exists -->
+-->
 
 ## Support and security
 
@@ -69,4 +69,4 @@ Questions go to issues. Security reports follow [SECURITY.md](SECURITY.md) or th
 
 ## Licence
 
-Apache-2.0 unless stated otherwise. See [LICENSE](LICENSE).
+See [LICENSE](LICENSE).

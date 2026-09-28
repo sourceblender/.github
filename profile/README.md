@@ -16,7 +16,9 @@ A memory server for a small fleet of agents, so that what one learns the others
 can use. It has three memory planes, runs local inference, and has a lifecycle
 engine that matures raw captures into a knowledge base a person can review.
 Host adapters connect agents to Musubi. For the hosts it supports, the shared
-harness supplies turn capture and verified delivery.
+harness supplies turn capture and verified delivery. Retrieval quality is
+measured by an [eval harness](https://github.com/ericmey/musubi/tree/main/src/musubi/evals)
+that runs nightly in [CI](https://github.com/ericmey/musubi/actions/workflows/evals.yml).
 
 | | Repository | Visibility · lifecycle |
 | --- | --- | --- |
@@ -26,15 +28,15 @@ harness supplies turn capture and verified delivery.
 | Codex | [musubi-codex](https://github.com/sourceblender/musubi-codex) | Public · released |
 | Grok Build | [musubi-grok](https://github.com/sourceblender/musubi-grok) | Public · developing |
 | Hermes | [musubi-hermes](https://github.com/sourceblender/musubi-hermes) | Public · released |
-| OpenClaw | [musubi-openclaw](https://github.com/sourceblender/musubi-openclaw) | Public · developing |
-| LiveKit | [musubi-livekit](https://github.com/sourceblender/musubi-livekit) | Public · proof of concept |
+| OpenClaw | [musubi-openclaw](https://github.com/sourceblender/musubi-openclaw) | Public · released (npm) |
+| LiveKit | [musubi-livekit](https://github.com/sourceblender/musubi-livekit) | Public · seed |
 
 ### Chord: one model name, a team of specialists behind it
 
-An OpenAI-compatible endpoint that routes each turn to a local specialist agent
-(conversation, image, audio, search, video), each with its own prompt, model and
-tools. Clients see one model; they never see the internal tool calls.
-It runs in production here today. **Private · public release planned.**
+An OpenAI-compatible endpoint that routes each turn to a specialist agent
+(conversation, image, audio, search, video), each with its own prompt and tools.
+Clients see one model; they never see the internal tool calls.
+In internal daily use. **Private · public release planned.**
 
 ### Voice: real-time voice and phone agents
 
@@ -55,8 +57,9 @@ decided. **Private · public release planned.**
 Two separate things: who can see it, and how far along it is.
 
 - **Visibility:** *public* (source open), *private*, or *public release planned*.
-- **Lifecycle:** *proof of concept*, *developing*, *released* (has a published
-  release), *maintained*, or *archived*.
+- **Lifecycle:** *seed* (a placeholder repository), *proof of concept*,
+  *developing*, *released* (published through GitHub Releases or a package
+  registry, named where it matters), *maintained*, or *archived*.
 
 Start with a project's README for installation and support. Report security
 issues through that repository's `SECURITY.md`, or the
