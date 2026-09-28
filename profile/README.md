@@ -28,7 +28,7 @@ that runs nightly in [CI](https://github.com/ericmey/musubi/actions/workflows/ev
 | Codex | [musubi-codex](https://github.com/sourceblender/musubi-codex) | Public · released |
 | Grok Build | [musubi-grok](https://github.com/sourceblender/musubi-grok) | Public · developing |
 | Hermes | [musubi-hermes](https://github.com/sourceblender/musubi-hermes) | Public · released |
-| OpenClaw | [musubi-openclaw](https://github.com/sourceblender/musubi-openclaw) | Public · developing (an earlier architecture is on npm as 2.0.10) |
+| OpenClaw | [musubi-openclaw](https://github.com/sourceblender/musubi-openclaw) | Public · released on npm (2.0.10) |
 | LiveKit | [musubi-livekit](https://github.com/sourceblender/musubi-livekit) | Public · seed |
 
 ### Chord: one model name, a team of specialists behind it
