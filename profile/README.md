@@ -1,7 +1,9 @@
 # Sourceblender
 
-Sourceblender builds open infrastructure for AI agents that work together over
-time: shared memory, an agent runtime, and real-time voice. It is built and run
+Sourceblender builds infrastructure for AI agents that work together over time:
+shared memory, an agent runtime, and real-time voice. The memory layer is open
+source today; the runtime and voice are running in-house, with public releases
+planned. It is built and run
 every day on our own hardware.
 
 Built by [Eric Mey](https://github.com/ericmey).
