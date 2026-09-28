@@ -56,7 +56,8 @@ decided. **Private · public release planned.**
 
 Two separate things: who can see it, and how far along it is.
 
-- **Visibility:** *public* (source open), *private*, or *public release planned*.
+- **Visibility:** *public* (source open) or *private*. A private project may add
+  *public release planned* when we intend to open it.
 - **Lifecycle:** *seed* (a placeholder repository), *proof of concept*,
   *developing*, *released* (published through GitHub Releases or a package
   registry, named where it matters), *maintained*, or *archived*.
