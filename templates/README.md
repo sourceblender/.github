@@ -21,7 +21,7 @@ Who can use this today, and what they get from it. Two or three sentences.
 | | |
 | --- | --- |
 | Purpose | Open source · Internal · Commercial candidate |
-| Visibility | Public · Private · Public release planned |
+| Visibility | Public · Private (add "public release planned" if we intend to open it) |
 | Lifecycle | Seed · Proof of concept · Developing · Released · Maintained · Archived |
 | Owner | @handle |
 
