@@ -38,11 +38,10 @@ An OpenAI-compatible endpoint that routes each turn to a specialist agent
 Clients see one model; they never see the internal tool calls.
 In internal daily use. **Private · public release planned.**
 
-### Voice: real-time voice and phone agents
+### Duet: real-time voice and phone agents
 
-A private house system in development: spoken conversation with agents, in real
-time and over the phone, built on LiveKit and SIP. The public name is still to be
-decided. **Private · public release planned.**
+A private LiveKit plugin in development: spoken conversation with agents, in real
+time and over the phone, built with full-duplex turn-taking.. **Private · public release planned.**
 
 ## Also from us
 
