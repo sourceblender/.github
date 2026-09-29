@@ -17,12 +17,12 @@ can use. It has three memory planes, runs local inference, and has a lifecycle
 engine that matures raw captures into a knowledge base a person can review.
 Host adapters connect agents to Musubi. For the hosts it supports, the shared
 harness supplies turn capture and verified delivery. Retrieval quality is
-measured by an [eval harness](https://github.com/ericmey/musubi/tree/main/src/musubi/evals)
-that runs nightly in [CI](https://github.com/ericmey/musubi/actions/workflows/evals.yml).
+measured by an [eval harness](https://github.com/sourceblender/musubi/tree/main/src/musubi/evals)
+that runs nightly in [CI](https://github.com/sourceblender/musubi/actions/workflows/evals.yml).
 
 | | Repository | Visibility · lifecycle |
 | --- | --- | --- |
-| Server | [ericmey/musubi](https://github.com/ericmey/musubi) | Public · released |
+| Server | [sourceblender/musubi](https://github.com/sourceblender/musubi) | Public · released |
 | Harness | [musubi-harness](https://github.com/sourceblender/musubi-harness) | Public · released |
 | Claude Code | [musubi-claude](https://github.com/sourceblender/musubi-claude) | Public · released |
 | Codex | [musubi-codex](https://github.com/sourceblender/musubi-codex) | Public · released |
