@@ -1,4 +1,4 @@
-# Sourceblender
+# Source Blender
 
 Sourceblender builds infrastructure for AI agents that work together over time:
 shared memory, an agent runtime, and real-time voice. The memory layer is open
@@ -26,10 +26,10 @@ that runs nightly in [CI](https://github.com/sourceblender/musubi/actions/workfl
 | Harness | [musubi-harness](https://github.com/sourceblender/musubi-harness) | Public · released |
 | Claude Code | [musubi-claude](https://github.com/sourceblender/musubi-claude) | Public · released |
 | Codex | [musubi-codex](https://github.com/sourceblender/musubi-codex) | Public · released |
-| Grok Build | [musubi-grok](https://github.com/sourceblender/musubi-grok) | Public · released on GitHub (v0.1.0) |
+| Grok Build | [musubi-grok](https://github.com/sourceblender/musubi-grok) | Public · released |
 | Hermes | [musubi-hermes](https://github.com/sourceblender/musubi-hermes) | Public · released |
-| OpenClaw | [musubi-openclaw](https://github.com/sourceblender/musubi-openclaw) | Public · released on npm (2.0.10) |
-| LiveKit | [musubi-livekit](https://github.com/sourceblender/musubi-livekit) | Public · seed |
+| OpenClaw | [musubi-openclaw](https://github.com/sourceblender/musubi-openclaw) | Public · released |
+| LiveKit | [musubi-livekit](https://github.com/sourceblender/musubi-livekit) | Public · development |
 
 ### Chord: one model name, a team of specialists behind it
 
